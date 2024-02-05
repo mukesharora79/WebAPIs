@@ -28,8 +28,6 @@ builder.Services.AddOpenTelemetry().UseAzureMonitor();
 
 var app = builder.Build();
 
-
-
 app.UseHttpLogging();
 
 
